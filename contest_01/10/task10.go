@@ -1,36 +1,37 @@
 package main
 
 import "fmt"
+//test
 
 func main() {
  var a1, a2, a3 string
  fmt.Scan(&a1, &a2, &a3)
- if a1 == "Нет" {
-  if a2 == "Нет" {
-   if a3 == "Нет" {
-    fmt.Print("Кот")
+ if a1 == "РќРµС‚" {
+  if a2 == "РќРµС‚" {
+   if a3 == "РќРµС‚" {
+    fmt.Print("РљРѕС‚")
    } else {
-    fmt.Println("Жираф")
+    fmt.Println("Р–РёСЂР°С„")
    }
   } else {
-   if a3 == "Нет" {
-    fmt.Println("Курица")
+   if a3 == "РќРµС‚" {
+    fmt.Println("РљСѓСЂРёС†Р°")
    } else {
-    fmt.Println("Страус")
+    fmt.Println("РЎС‚СЂР°СѓСЃ")
    }
   }
  } else {
-  if a2 == "Нет" {
-   if a3 == "Нет" {
-    fmt.Print("Дельфин")
+  if a2 == "РќРµС‚" {
+   if a3 == "РќРµС‚" {
+    fmt.Print("Р”РµР»СЊС„РёРЅ")
    } else {
-    fmt.Println("Плезиозавры")
+    fmt.Println("РџР»РµР·РёРѕР·Р°РІСЂС‹")
    }
   } else {
-   if a3 == "Нет" {
-    fmt.Print("Пингвин")
+   if a3 == "РќРµС‚" {
+    fmt.Print("РџРёРЅРіРІРёРЅ")
    } else {
-    fmt.Println("Утка")
+    fmt.Println("РЈС‚РєР°")
    }
   }
  }
